@@ -1,0 +1,10 @@
+** COMANDO DOCKER PARA RODAR A IMAGEM
+docker run --name database -p 5432:5432 -d -t kartoza/postgis
+- SUBIR IMAGE QUANDO STOPADA
+docker start image_name
+**
+
+
+** COMANDO DO MIGRATION
+npx sequelize db:migrate
+**
